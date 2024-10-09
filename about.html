@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>EduFort</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="logo" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- ---- About Us Content Section ---- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The World's Largest University</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod perspiciatis consequuntur nostrum natus repellat veritatis, cupiditate sed pariatur perferendis minima incidunt nisi quae laborum aliquam odio ducimus eum quam, sit commodi delectus. Quasi aspernatur iste est maiores, voluptate impedit culpa fugit iure asperiores maxime ratione ipsam provident sunt? Ipsa magnam eos ullam nihil neque dolor.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="about.jpg" alt="About">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---- Campus Section ---- -->
+
+
+    <!-- ---- Facilities Section ---- -->
+
+
+    <!-- ---- Testimonials ---- -->
+
+
+    <!-- ---- Call To Action Section ---- -->
+
+
+    <!-- ---- Footer Section ---- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium atque accusamus doloribus ipsam magni officia<br>Quasi, sunt voluptatem illo error sequi dolorem incidunt earum.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p>Made With <i class="fa fa-heart-o"></i> by Mian Suffian</p>
+    </section>
+
+
+
+
+    <!-- ------ Javascript for toggle menu ------ -->
+
+    <script>
+        const navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-46%"
+        }
+    </script>
+</body>
+</html>
